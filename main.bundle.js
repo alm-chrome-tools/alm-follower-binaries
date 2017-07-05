@@ -53,9 +53,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: '', pathMatch: 'full', redirectTo: 'projects', },
-    { path: 'projects', component: __WEBPACK_IMPORTED_MODULE_2__vsts_projects_vsts_projects_component__["a" /* VstsProjectsComponent */] },
-    { path: '**', pathMatch: 'full', redirectTo: 'projects' },
+    { path: '', pathMatch: 'full', component: __WEBPACK_IMPORTED_MODULE_2__vsts_projects_vsts_projects_component__["a" /* VstsProjectsComponent */] },
+    { path: '**', pathMatch: 'full', redirectTo: '' },
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
