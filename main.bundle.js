@@ -1,6 +1,6 @@
 webpackJsonp([1,4],{
 
-/***/ 117:
+/***/ 118:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -9,20 +9,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 117;
+webpackEmptyContext.id = 118;
 
 
 /***/ }),
 
-/***/ 118:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_app_module__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_app_module__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_dynamic__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_dynamic__ = __webpack_require__(124);
 
 
 
@@ -35,13 +35,13 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vsts_projects_vsts_projects_component__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vsts_projects_vsts_projects_component__ = __webpack_require__(86);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -72,12 +72,12 @@ AppRoutingModule = __decorate([
 
 /***/ }),
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_data_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_data_service__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -105,10 +105,10 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-root',
         template: __webpack_require__(214),
-        styles: [__webpack_require__(200)]
+        styles: [__webpack_require__(201)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_data_service__["a" /* VstsDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_data_service__["a" /* VstsDataService */]) === "function" && _a || Object])
 ], AppComponent);
@@ -118,29 +118,29 @@ var _a;
 
 /***/ }),
 
-/***/ 128:
+/***/ 129:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_hammerjs__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_hammerjs__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_hammerjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_hammerjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_routing_module__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser_animations__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_material__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_routing_module__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser_animations__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_material__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__order_by_pipe__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__profile_profile_module__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__quality_indicator_quality_indicator_component__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selected_builds_selected_builds_module__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__sonar_sonar_module__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__vsts_build_card_vsts_build_card_component__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__vsts_vsts_module__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__vsts_project_vsts_project_component__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__vsts_projects_vsts_projects_component__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__order_by_pipe__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__profile_profile_module__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__quality_indicator_quality_indicator_component__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selected_builds_selected_builds_module__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__sonar_sonar_module__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__vsts_build_card_vsts_build_card_component__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__vsts_vsts_module__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__vsts_project_vsts_project_component__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__vsts_projects_vsts_projects_component__ = __webpack_require__(86);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -204,7 +204,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 129:
+/***/ 130:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -315,7 +315,7 @@ var OrderByPipe = OrderByPipe_1 = (function () {
     return OrderByPipe;
 }());
 OrderByPipe = OrderByPipe_1 = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Pipe */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Pipe */])({
         name: 'orderBy',
         pure: false
     })
@@ -329,7 +329,7 @@ var OrderByPipe_1;
 
 /***/ }),
 
-/***/ 130:
+/***/ 131:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -347,18 +347,18 @@ var ProfileCredentials = (function () {
 
 /***/ }),
 
-/***/ 131:
+/***/ 132:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__vsts_profile_vsts_profile_component__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_dialog_login_dialog_component__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__profile_service__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__sonarqube_profile_sonarqube_profile_component__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__vsts_profile_vsts_profile_component__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_dialog_login_dialog_component__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__profile_service__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__sonarqube_profile_sonarqube_profile_component__ = __webpack_require__(133);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfileModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -408,14 +408,14 @@ ProfileModule = __decorate([
 
 /***/ }),
 
-/***/ 132:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__login_dialog_login_dialog_component__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_material__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_service__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__login_dialog_login_dialog_component__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_material__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_service__ = __webpack_require__(29);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SonarqubeProfileComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -457,10 +457,10 @@ var SonarqubeProfileComponent = (function () {
     return SonarqubeProfileComponent;
 }());
 SonarqubeProfileComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-sonarqube-profile',
         template: __webpack_require__(216),
-        styles: [__webpack_require__(202)]
+        styles: [__webpack_require__(203)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_material__["d" /* MdDialog */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_material__["d" /* MdDialog */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__profile_service__["a" /* ProfileService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__profile_service__["a" /* ProfileService */]) === "function" && _b || Object])
 ], SonarqubeProfileComponent);
@@ -470,18 +470,18 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 133:
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_dialog_login_dialog_component__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_dialog_login_dialog_component__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VstsProfileComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -526,10 +526,10 @@ var VstsProfileComponent = (function () {
     return VstsProfileComponent;
 }());
 VstsProfileComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_0" /* Component */])({
         selector: 'follow-vsts-profile',
         template: __webpack_require__(217),
-        styles: [__webpack_require__(203)]
+        styles: [__webpack_require__(204)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__angular_material__["d" /* MdDialog */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_material__["d" /* MdDialog */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__["a" /* VstsDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__["a" /* VstsDataService */]) === "function" && _b || Object])
 ], VstsProfileComponent);
@@ -539,7 +539,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 134:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -563,18 +563,18 @@ var QualityIndicatorComponent = (function () {
     return QualityIndicatorComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], QualityIndicatorComponent.prototype, "indicatorName", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], QualityIndicatorComponent.prototype, "indicatorValue", void 0);
 QualityIndicatorComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-quality-indicator',
         template: __webpack_require__(218),
-        styles: [__webpack_require__(204)]
+        styles: [__webpack_require__(205)]
     }),
     __metadata("design:paramtypes", [])
 ], QualityIndicatorComponent);
@@ -583,12 +583,12 @@ QualityIndicatorComponent = __decorate([
 
 /***/ }),
 
-/***/ 135:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_project__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_project__ = __webpack_require__(30);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -771,18 +771,18 @@ var CardComponent = (function () {
     return CardComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_project__["a" /* MainBuildsInfo */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__vsts_vsts_project__["a" /* MainBuildsInfo */]) === "function" && _a || Object)
 ], CardComponent.prototype, "build", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", Object)
 ], CardComponent.prototype, "measures", void 0);
 CardComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-card',
         template: __webpack_require__(219),
-        styles: [__webpack_require__(205)]
+        styles: [__webpack_require__(206)]
     }),
     __metadata("design:paramtypes", [])
 ], CardComponent);
@@ -792,7 +792,7 @@ var _a;
 
 /***/ }),
 
-/***/ 136:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -819,34 +819,34 @@ var IndicatorTileComponent = (function () {
     return IndicatorTileComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], IndicatorTileComponent.prototype, "indicatorName", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], IndicatorTileComponent.prototype, "indicatorValue", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], IndicatorTileComponent.prototype, "indicatorColor", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], IndicatorTileComponent.prototype, "indicatorType", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], IndicatorTileComponent.prototype, "historyDiff", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], IndicatorTileComponent.prototype, "historyColor", void 0);
 IndicatorTileComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-indicator-tile',
         template: __webpack_require__(220),
-        styles: [__webpack_require__(206)]
+        styles: [__webpack_require__(207)]
     }),
     __metadata("design:paramtypes", [])
 ], IndicatorTileComponent);
@@ -855,19 +855,19 @@ IndicatorTileComponent = __decorate([
 
 /***/ }),
 
-/***/ 137:
+/***/ 138:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_last__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_last__ = __webpack_require__(242);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_last___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_last__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_project__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__selected_builds_service__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sonar_sonar_data_service__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vsts_vsts_data_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_project__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__selected_builds_service__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sonar_sonar_data_service__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vsts_vsts_data_service__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -900,7 +900,6 @@ var ListComponent = (function () {
         this.selectedBuildService = selectedBuildService;
         this.vstsDataService = vstsDataService;
         this.sonarService = sonarService;
-        this.selectedBuilds = new Array();
     }
     ListComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -911,34 +910,38 @@ var ListComponent = (function () {
                     prj.id = build.projectGuid;
                     return new __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_project__["d" /* FullProject */](prj);
                 }).filter(function (v, i, a) { return a.findIndex(function (r) { return v.project.id === r.project.id; }) === i; });
-                _this.vstsDataService.getDefinitionsBatch(projects).subscribe(function (definitions) {
-                    var allDefinitions = [].concat.apply([], definitions);
-                    var selectedDefinitions = allDefinitions
-                        .filter(function (definition) { return _this.isDefinitionSelected(definition); })
-                        .sort(function (a, b) { return (a.project.name + a.name).localeCompare(b.project.name + b.name); });
-                    _this.vstsDataService.getBuildsForDefinitionGroup(selectedDefinitions).subscribe(function (buildInfos) {
-                        _this.selectedBuilds = buildInfos;
-                        _this.vstsDataService.getTestResultsForDefinitionGroup(buildInfos).subscribe(function (buildsWithTests) {
-                            _this.selectedBuilds = buildsWithTests;
-                            _this.vstsDataService.getTestCoverageForDefinitionGroup(buildsWithTests).subscribe(function (buildsWithCoverages) {
-                                _this.selectedBuilds = buildsWithCoverages;
-                                _this.selectedBuilds.forEach(function (selectedBuild) {
-                                    _this.vstsDataService.getBuildsWithPlanId(selectedBuild).subscribe(function (build) {
-                                        selectedBuild.last.planId = build.last.planId;
-                                        _this.vstsDataService.getPlan(selectedBuild, build.last.planId).subscribe(function (recordId) {
-                                            if (recordId) {
-                                                _this.vstsDataService.getRecords(selectedBuild, build.last.planId, recordId).subscribe(function (record) {
-                                                    var logUri = _this.vstsDataService.getLogUrlForSonar(record);
-                                                    if (logUri) {
-                                                        _this.vstsDataService.getSonarKey(logUri).subscribe(function (result) {
-                                                            selectedBuild.last.sonarKey = result;
-                                                            _this.sonarService.getIndicators(selectedBuild.last.sonarKey).subscribe(function (measures) {
-                                                                selectedBuild.measures = measures;
+                projects.forEach(function (project) {
+                    _this.vstsDataService.getDefinitions(project).subscribe(function (definitions) {
+                        _this.selectedBuilds = [];
+                        var allDefinitions = [].concat.apply([], definitions);
+                        var selectedDefinitions = allDefinitions
+                            .filter(function (definition) { return _this.isDefinitionSelected(definition); })
+                            .sort(function (a, b) { return (a.project.name + a.name).localeCompare(b.project.name + b.name); });
+                        selectedDefinitions.forEach(function (selectedDefinition) {
+                            _this.vstsDataService.getBuildByDefinition(selectedDefinition).subscribe(function (buildInfo) {
+                                var selectedBuild = buildInfo;
+                                _this.selectedBuilds.push(selectedBuild);
+                                _this.vstsDataService.getTestResultForMainBuild(buildInfo).subscribe(function (buildWithTests) {
+                                    Object.assign(selectedBuild, buildWithTests);
+                                    _this.vstsDataService.getTestCoverageForMainBuild(buildWithTests).subscribe(function (buildWithCoverages) {
+                                        Object.assign(selectedBuild, buildWithCoverages);
+                                        _this.vstsDataService.getBuildsWithPlanId(selectedBuild).subscribe(function (build) {
+                                            selectedBuild.last.planId = build.last.planId;
+                                            _this.vstsDataService.getPlan(selectedBuild, build.last.planId).subscribe(function (recordId) {
+                                                if (recordId) {
+                                                    _this.vstsDataService.getRecords(selectedBuild, build.last.planId, recordId).subscribe(function (record) {
+                                                        var logUri = _this.vstsDataService.getLogUrlForSonar(record);
+                                                        if (logUri) {
+                                                            _this.vstsDataService.getSonarKey(logUri).subscribe(function (result) {
+                                                                selectedBuild.last.sonarKey = result;
+                                                                _this.sonarService.getIndicators(selectedBuild.last.sonarKey).subscribe(function (measures) {
+                                                                    selectedBuild.measures = measures;
+                                                                });
                                                             });
-                                                        });
-                                                    }
-                                                });
-                                            }
+                                                        }
+                                                    });
+                                                }
+                                            });
                                         });
                                     });
                                 });
@@ -955,10 +958,10 @@ var ListComponent = (function () {
     return ListComponent;
 }());
 ListComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_0" /* Component */])({
         selector: 'follow-list',
         template: __webpack_require__(221),
-        styles: [__webpack_require__(207)]
+        styles: [__webpack_require__(208)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__selected_builds_service__["a" /* SelectedBuildsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__selected_builds_service__["a" /* SelectedBuildsService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_6__vsts_vsts_data_service__["a" /* VstsDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__vsts_vsts_data_service__["a" /* VstsDataService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__sonar_sonar_data_service__["a" /* SonarDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__sonar_sonar_data_service__["a" /* SonarDataService */]) === "function" && _c || Object])
 ], ListComponent);
@@ -977,22 +980,22 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 138:
+/***/ 139:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_hammerjs__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_hammerjs__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_hammerjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_hammerjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__card_card_component__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__indicator_tile_indicator_tile_component__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_list_component__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__card_card_component__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__indicator_tile_indicator_tile_component__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list_list_component__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__selected_builds_service__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__selection_toggle_selection_toggle_component__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__sonar_sonar_module__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tile_tile_component__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__selected_builds_service__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__selection_toggle_selection_toggle_component__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__sonar_sonar_module__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tile_tile_component__ = __webpack_require__(141);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectedBuildsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1033,7 +1036,7 @@ SelectedBuildsModule = __decorate([
 
 /***/ }),
 
-/***/ 139:
+/***/ 140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1057,10 +1060,10 @@ var SelectionToggleComponent = (function () {
     return SelectionToggleComponent;
 }());
 SelectionToggleComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-selection-toggle',
         template: __webpack_require__(222),
-        styles: [__webpack_require__(208)]
+        styles: [__webpack_require__(209)]
     }),
     __metadata("design:paramtypes", [])
 ], SelectionToggleComponent);
@@ -1069,7 +1072,7 @@ SelectionToggleComponent = __decorate([
 
 /***/ }),
 
-/***/ 140:
+/***/ 141:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1096,26 +1099,26 @@ var TileComponent = (function () {
     return TileComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", Number)
 ], TileComponent.prototype, "colspan", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", Number)
 ], TileComponent.prototype, "rowspan", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], TileComponent.prototype, "backgroundColor", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
     __metadata("design:type", String)
 ], TileComponent.prototype, "title", void 0);
 TileComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-tile',
         template: __webpack_require__(223),
-        styles: [__webpack_require__(209)]
+        styles: [__webpack_require__(210)]
     }),
     __metadata("design:paramtypes", [])
 ], TileComponent);
@@ -1124,7 +1127,7 @@ TileComponent = __decorate([
 
 /***/ }),
 
-/***/ 141:
+/***/ 142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1139,18 +1142,18 @@ var Measure = (function () {
 
 /***/ }),
 
-/***/ 142:
+/***/ 143:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__test_result__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__test_result__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_project__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_project__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VstsBuildCardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1306,18 +1309,18 @@ var VstsBuildCardComponent = (function () {
     return VstsBuildCardComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_core__["O" /* Input */])(),
     __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_project__["a" /* MainBuildsInfo */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_project__["a" /* MainBuildsInfo */]) === "function" && _a || Object)
 ], VstsBuildCardComponent.prototype, "build", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_core__["O" /* Input */])(),
     __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_project__["d" /* FullProject */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_project__["d" /* FullProject */]) === "function" && _b || Object)
 ], VstsBuildCardComponent.prototype, "project", void 0);
 VstsBuildCardComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_core__["_0" /* Component */])({
         selector: 'follow-vsts-build-card',
         template: __webpack_require__(224),
-        styles: [__webpack_require__(210)]
+        styles: [__webpack_require__(211)]
     }),
     __metadata("design:paramtypes", [typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__["a" /* VstsDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__vsts_vsts_data_service__["a" /* VstsDataService */]) === "function" && _c || Object])
 ], VstsBuildCardComponent);
@@ -1327,17 +1330,17 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 143:
+/***/ 144:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_project__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_data_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_project__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_data_service__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VstsProjectComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1367,18 +1370,18 @@ var VstsProjectComponent = (function () {
     return VstsProjectComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["O" /* Input */])(),
     __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_project__["d" /* FullProject */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_project__["d" /* FullProject */]) === "function" && _a || Object)
 ], VstsProjectComponent.prototype, "project", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["M" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["O" /* Input */])(),
     __metadata("design:type", Object)
 ], VstsProjectComponent.prototype, "projects", void 0);
 VstsProjectComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_0" /* Component */])({
         selector: 'follow-vsts-project',
         template: __webpack_require__(225),
-        styles: [__webpack_require__(211)]
+        styles: [__webpack_require__(212)]
     }),
     __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_data_service__["a" /* VstsDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__vsts_vsts_data_service__["a" /* VstsDataService */]) === "function" && _b || Object])
 ], VstsProjectComponent);
@@ -1388,14 +1391,14 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 144:
+/***/ 145:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_data_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_data_service__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VstsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1430,7 +1433,7 @@ VstsModule = __decorate([
 
 /***/ }),
 
-/***/ 145:
+/***/ 146:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1447,36 +1450,312 @@ var environment = {
 
 /***/ }),
 
-/***/ 18:
+/***/ 201:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, ".app-content {\r\n  padding: 20px;\r\n  width: 700px;\r\n}\r\n\r\n.app-content md-card {\r\n  margin: 20px;\r\n}\r\n\r\n.app-sidenav {\r\n  padding: 20px;\r\n  min-width: 150px;\r\n}\r\n\r\n.app-content md-checkbox {\r\n  margin: 10px;\r\n}\r\n\r\n.app-toolbar-filler {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 auto;\r\n          flex: 1 1 auto;\r\n}\r\n\r\n.app-toolbar-menu {\r\n  padding: 0 14px 0 14px;\r\n  color: white;\r\n}\r\n\r\n.app-icon-button {\r\n  box-shadow: none;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  background: none;\r\n  border: none;\r\n  cursor: pointer;\r\n  -webkit-filter: none;\r\n          filter: none;\r\n  font-weight: normal;\r\n  height: auto;\r\n  line-height: inherit;\r\n  margin: 0;\r\n  min-width: 0;\r\n  padding: 0;\r\n  text-align: left;\r\n  text-decoration: none;\r\n}\r\n\r\n.app-action {\r\n  display: inline-block;\r\n  position: fixed;\r\n  bottom: 20px;\r\n  right: 20px;\r\n}\r\n\r\n.app-spinner {\r\n  height: 30px;\r\n  width: 30px;\r\n  display: inline-block;\r\n}\r\n\r\n.app-input-icon {\r\n  font-size: 16px;\r\n}\r\n\r\n.app-list {\r\n  border: 1px solid rgba(0,0,0,0.12);\r\n  width: 350px;\r\n  margin: 20px;\r\n}\r\n\r\n.app-progress {\r\n  margin: 20px;\r\n}\r\n\r\nmd-toolbar .flex {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 auto;\r\n          flex: 1 1 auto;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 202:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 203:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 204:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 205:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "table tr td {\r\n    text-align: center;\r\n    font-size: 10pt;\r\n    height: 20px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 206:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, ".card_header {\r\n  font-weight: bold;\r\n  color:#084B8A;\r\n  margin: -15px 0px 5px 0px;\r\n}\r\n\r\nmd-card {\r\n  color: rgba(0,0,0,0.87);\r\n  background-color: white;\r\n  margin: 8px;\r\n  width: 630px;\r\n}\r\n\r\ntable tr td {\r\n    text-align: justify;\r\n    font-size: 10pt;\r\n    height: 20px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}\r\n\r\nfollow-quality-indicator {\r\n  margin: 0px;\r\n  padding: 0px;\r\n  -ms-flex-line-pack: center;\r\n      align-content: center;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 207:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "table tr td {\r\n    text-align: center;\r\n    font-size: 10pt;\r\n    height: 10px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}\r\n\r\n.indicator_title{\r\n  font-weight: bold;\r\n  font-size: 10pt;\r\n  margin-bottom: 5px;\r\n}\r\n.indicator_value{\r\n  font-size: 20pt;\r\n  text-align: center;\r\n      margin-top: 20px;\r\n}\r\n.indicator_block{\r\n  min-height: 80px;\r\n}\r\n\r\n/****************************************************************\r\n *\r\n * CSS Percentage Circle\r\n * Author: Andre Firchow\r\n *\r\n*****************************************************************/\r\n.rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice, .c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice, .c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice, .c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, .c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice, .c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice, .c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice, .c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice, .c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice, .c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice, .c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice, .c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice, .c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {\r\n  clip: rect(auto, auto, auto, auto);\r\n}\r\n\r\n.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {\r\n  position: absolute;\r\n  border: 0.08em solid #307bbb;\r\n  width: 0.84em;\r\n  height: 0.84em;\r\n  clip: rect(0em, 0.5em, 1em, 0em);\r\n  border-radius: 50%;\r\n  -webkit-transform: rotate(0deg);\r\n  transform: rotate(0deg);\r\n}\r\n\r\n.pie-fill, .c100.p51 .bar:after, .c100.p51 .fill, .c100.p52 .bar:after, .c100.p52 .fill, .c100.p53 .bar:after, .c100.p53 .fill, .c100.p54 .bar:after, .c100.p54 .fill, .c100.p55 .bar:after, .c100.p55 .fill, .c100.p56 .bar:after, .c100.p56 .fill, .c100.p57 .bar:after, .c100.p57 .fill, .c100.p58 .bar:after, .c100.p58 .fill, .c100.p59 .bar:after, .c100.p59 .fill, .c100.p60 .bar:after, .c100.p60 .fill, .c100.p61 .bar:after, .c100.p61 .fill, .c100.p62 .bar:after, .c100.p62 .fill, .c100.p63 .bar:after, .c100.p63 .fill, .c100.p64 .bar:after, .c100.p64 .fill, .c100.p65 .bar:after, .c100.p65 .fill, .c100.p66 .bar:after, .c100.p66 .fill, .c100.p67 .bar:after, .c100.p67 .fill, .c100.p68 .bar:after, .c100.p68 .fill, .c100.p69 .bar:after, .c100.p69 .fill, .c100.p70 .bar:after, .c100.p70 .fill, .c100.p71 .bar:after, .c100.p71 .fill, .c100.p72 .bar:after, .c100.p72 .fill, .c100.p73 .bar:after, .c100.p73 .fill, .c100.p74 .bar:after, .c100.p74 .fill, .c100.p75 .bar:after, .c100.p75 .fill, .c100.p76 .bar:after, .c100.p76 .fill, .c100.p77 .bar:after, .c100.p77 .fill, .c100.p78 .bar:after, .c100.p78 .fill, .c100.p79 .bar:after, .c100.p79 .fill, .c100.p80 .bar:after, .c100.p80 .fill, .c100.p81 .bar:after, .c100.p81 .fill, .c100.p82 .bar:after, .c100.p82 .fill, .c100.p83 .bar:after, .c100.p83 .fill, .c100.p84 .bar:after, .c100.p84 .fill, .c100.p85 .bar:after, .c100.p85 .fill, .c100.p86 .bar:after, .c100.p86 .fill, .c100.p87 .bar:after, .c100.p87 .fill, .c100.p88 .bar:after, .c100.p88 .fill, .c100.p89 .bar:after, .c100.p89 .fill, .c100.p90 .bar:after, .c100.p90 .fill, .c100.p91 .bar:after, .c100.p91 .fill, .c100.p92 .bar:after, .c100.p92 .fill, .c100.p93 .bar:after, .c100.p93 .fill, .c100.p94 .bar:after, .c100.p94 .fill, .c100.p95 .bar:after, .c100.p95 .fill, .c100.p96 .bar:after, .c100.p96 .fill, .c100.p97 .bar:after, .c100.p97 .fill, .c100.p98 .bar:after, .c100.p98 .fill, .c100.p99 .bar:after, .c100.p99 .fill, .c100.p100 .bar:after, .c100.p100 .fill {\r\n  -webkit-transform: rotate(180deg);\r\n  transform: rotate(180deg);\r\n}\r\n\r\n.c100 {\r\n  position: relative;\r\n  font-size: 120px;\r\n  width: 1em;\r\n  height: 1em;\r\n  border-radius: 50%;\r\n  float: left;\r\n  margin: 0 0.1em 0.1em 0;\r\n  background-color: #cccccc;\r\n}\r\n.c100 *, .c100 *:before, .c100 *:after {\r\n  box-sizing: content-box;\r\n}\r\n.c100.center {\r\n  float: none;\r\n  margin: 0 auto;\r\n}\r\n.c100.big {\r\n  font-size: 240px;\r\n}\r\n.c100.small {\r\n  font-size: 60px;\r\n}\r\n.c100 > span {\r\n  position: absolute;\r\n  width: 100%;\r\n  z-index: 1;\r\n  left: 0;\r\n  top: 0;\r\n  width: 5em;\r\n  line-height: 5em;\r\n  font-size: 0.2em;\r\n  color: #cccccc;\r\n  display: block;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  transition-property: all;\r\n  transition-duration: 0.2s;\r\n  transition-timing-function: ease-out;\r\n}\r\n.c100:after {\r\n  position: absolute;\r\n  top: 0.08em;\r\n  left: 0.08em;\r\n  display: block;\r\n  content: \" \";\r\n  border-radius: 50%;\r\n  background-color: whitesmoke;\r\n  width: 0.84em;\r\n  height: 0.84em;\r\n  transition-property: all;\r\n  transition-duration: 0.2s;\r\n  transition-timing-function: ease-in;\r\n}\r\n.c100 .slice {\r\n  position: absolute;\r\n  width: 1em;\r\n  height: 1em;\r\n  clip: rect(0em, 1em, 1em, 0.5em);\r\n}\r\n.c100.p1 .bar {\r\n  -webkit-transform: rotate(3.6deg);\r\n  transform: rotate(3.6deg);\r\n}\r\n.c100.p2 .bar {\r\n  -webkit-transform: rotate(7.2deg);\r\n  transform: rotate(7.2deg);\r\n}\r\n.c100.p3 .bar {\r\n  -webkit-transform: rotate(10.8deg);\r\n  transform: rotate(10.8deg);\r\n}\r\n.c100.p4 .bar {\r\n  -webkit-transform: rotate(14.4deg);\r\n  transform: rotate(14.4deg);\r\n}\r\n.c100.p5 .bar {\r\n  -webkit-transform: rotate(18deg);\r\n  transform: rotate(18deg);\r\n}\r\n.c100.p6 .bar {\r\n  -webkit-transform: rotate(21.6deg);\r\n  transform: rotate(21.6deg);\r\n}\r\n.c100.p7 .bar {\r\n  -webkit-transform: rotate(25.2deg);\r\n  transform: rotate(25.2deg);\r\n}\r\n.c100.p8 .bar {\r\n  -webkit-transform: rotate(28.8deg);\r\n  transform: rotate(28.8deg);\r\n}\r\n.c100.p9 .bar {\r\n  -webkit-transform: rotate(32.4deg);\r\n  transform: rotate(32.4deg);\r\n}\r\n.c100.p10 .bar {\r\n  -webkit-transform: rotate(36deg);\r\n  transform: rotate(36deg);\r\n}\r\n.c100.p11 .bar {\r\n  -webkit-transform: rotate(39.6deg);\r\n  transform: rotate(39.6deg);\r\n}\r\n.c100.p12 .bar {\r\n  -webkit-transform: rotate(43.2deg);\r\n  transform: rotate(43.2deg);\r\n}\r\n.c100.p13 .bar {\r\n  -webkit-transform: rotate(46.8deg);\r\n  transform: rotate(46.8deg);\r\n}\r\n.c100.p14 .bar {\r\n  -webkit-transform: rotate(50.4deg);\r\n  transform: rotate(50.4deg);\r\n}\r\n.c100.p15 .bar {\r\n  -webkit-transform: rotate(54deg);\r\n  transform: rotate(54deg);\r\n}\r\n.c100.p16 .bar {\r\n  -webkit-transform: rotate(57.6deg);\r\n  transform: rotate(57.6deg);\r\n}\r\n.c100.p17 .bar {\r\n  -webkit-transform: rotate(61.2deg);\r\n  transform: rotate(61.2deg);\r\n}\r\n.c100.p18 .bar {\r\n  -webkit-transform: rotate(64.8deg);\r\n  transform: rotate(64.8deg);\r\n}\r\n.c100.p19 .bar {\r\n  -webkit-transform: rotate(68.4deg);\r\n  transform: rotate(68.4deg);\r\n}\r\n.c100.p20 .bar {\r\n  -webkit-transform: rotate(72deg);\r\n  transform: rotate(72deg);\r\n}\r\n.c100.p21 .bar {\r\n  -webkit-transform: rotate(75.6deg);\r\n  transform: rotate(75.6deg);\r\n}\r\n.c100.p22 .bar {\r\n  -webkit-transform: rotate(79.2deg);\r\n  transform: rotate(79.2deg);\r\n}\r\n.c100.p23 .bar {\r\n  -webkit-transform: rotate(82.8deg);\r\n  transform: rotate(82.8deg);\r\n}\r\n.c100.p24 .bar {\r\n  -webkit-transform: rotate(86.4deg);\r\n  transform: rotate(86.4deg);\r\n}\r\n.c100.p25 .bar {\r\n  -webkit-transform: rotate(90deg);\r\n  transform: rotate(90deg);\r\n}\r\n.c100.p26 .bar {\r\n  -webkit-transform: rotate(93.6deg);\r\n  transform: rotate(93.6deg);\r\n}\r\n.c100.p27 .bar {\r\n  -webkit-transform: rotate(97.2deg);\r\n  transform: rotate(97.2deg);\r\n}\r\n.c100.p28 .bar {\r\n  -webkit-transform: rotate(100.8deg);\r\n  transform: rotate(100.8deg);\r\n}\r\n.c100.p29 .bar {\r\n  -webkit-transform: rotate(104.4deg);\r\n  transform: rotate(104.4deg);\r\n}\r\n.c100.p30 .bar {\r\n  -webkit-transform: rotate(108deg);\r\n  transform: rotate(108deg);\r\n}\r\n.c100.p31 .bar {\r\n  -webkit-transform: rotate(111.6deg);\r\n  transform: rotate(111.6deg);\r\n}\r\n.c100.p32 .bar {\r\n  -webkit-transform: rotate(115.2deg);\r\n  transform: rotate(115.2deg);\r\n}\r\n.c100.p33 .bar {\r\n  -webkit-transform: rotate(118.8deg);\r\n  transform: rotate(118.8deg);\r\n}\r\n.c100.p34 .bar {\r\n  -webkit-transform: rotate(122.4deg);\r\n  transform: rotate(122.4deg);\r\n}\r\n.c100.p35 .bar {\r\n  -webkit-transform: rotate(126deg);\r\n  transform: rotate(126deg);\r\n}\r\n.c100.p36 .bar {\r\n  -webkit-transform: rotate(129.6deg);\r\n  transform: rotate(129.6deg);\r\n}\r\n.c100.p37 .bar {\r\n  -webkit-transform: rotate(133.2deg);\r\n  transform: rotate(133.2deg);\r\n}\r\n.c100.p38 .bar {\r\n  -webkit-transform: rotate(136.8deg);\r\n  transform: rotate(136.8deg);\r\n}\r\n.c100.p39 .bar {\r\n  -webkit-transform: rotate(140.4deg);\r\n  transform: rotate(140.4deg);\r\n}\r\n.c100.p40 .bar {\r\n  -webkit-transform: rotate(144deg);\r\n  transform: rotate(144deg);\r\n}\r\n.c100.p41 .bar {\r\n  -webkit-transform: rotate(147.6deg);\r\n  transform: rotate(147.6deg);\r\n}\r\n.c100.p42 .bar {\r\n  -webkit-transform: rotate(151.2deg);\r\n  transform: rotate(151.2deg);\r\n}\r\n.c100.p43 .bar {\r\n  -webkit-transform: rotate(154.8deg);\r\n  transform: rotate(154.8deg);\r\n}\r\n.c100.p44 .bar {\r\n  -webkit-transform: rotate(158.4deg);\r\n  transform: rotate(158.4deg);\r\n}\r\n.c100.p45 .bar {\r\n  -webkit-transform: rotate(162deg);\r\n  transform: rotate(162deg);\r\n}\r\n.c100.p46 .bar {\r\n  -webkit-transform: rotate(165.6deg);\r\n  transform: rotate(165.6deg);\r\n}\r\n.c100.p47 .bar {\r\n  -webkit-transform: rotate(169.2deg);\r\n  transform: rotate(169.2deg);\r\n}\r\n.c100.p48 .bar {\r\n  -webkit-transform: rotate(172.8deg);\r\n  transform: rotate(172.8deg);\r\n}\r\n.c100.p49 .bar {\r\n  -webkit-transform: rotate(176.4deg);\r\n  transform: rotate(176.4deg);\r\n}\r\n.c100.p50 .bar {\r\n  -webkit-transform: rotate(180deg);\r\n  transform: rotate(180deg);\r\n}\r\n.c100.p51 .bar {\r\n  -webkit-transform: rotate(183.6deg);\r\n  transform: rotate(183.6deg);\r\n}\r\n.c100.p52 .bar {\r\n  -webkit-transform: rotate(187.2deg);\r\n  transform: rotate(187.2deg);\r\n}\r\n.c100.p53 .bar {\r\n  -webkit-transform: rotate(190.8deg);\r\n  transform: rotate(190.8deg);\r\n}\r\n.c100.p54 .bar {\r\n  -webkit-transform: rotate(194.4deg);\r\n  transform: rotate(194.4deg);\r\n}\r\n.c100.p55 .bar {\r\n  -webkit-transform: rotate(198deg);\r\n  transform: rotate(198deg);\r\n}\r\n.c100.p56 .bar {\r\n  -webkit-transform: rotate(201.6deg);\r\n  transform: rotate(201.6deg);\r\n}\r\n.c100.p57 .bar {\r\n  -webkit-transform: rotate(205.2deg);\r\n  transform: rotate(205.2deg);\r\n}\r\n.c100.p58 .bar {\r\n  -webkit-transform: rotate(208.8deg);\r\n  transform: rotate(208.8deg);\r\n}\r\n.c100.p59 .bar {\r\n  -webkit-transform: rotate(212.4deg);\r\n  transform: rotate(212.4deg);\r\n}\r\n.c100.p60 .bar {\r\n  -webkit-transform: rotate(216deg);\r\n  transform: rotate(216deg);\r\n}\r\n.c100.p61 .bar {\r\n  -webkit-transform: rotate(219.6deg);\r\n  transform: rotate(219.6deg);\r\n}\r\n.c100.p62 .bar {\r\n  -webkit-transform: rotate(223.2deg);\r\n  transform: rotate(223.2deg);\r\n}\r\n.c100.p63 .bar {\r\n  -webkit-transform: rotate(226.8deg);\r\n  transform: rotate(226.8deg);\r\n}\r\n.c100.p64 .bar {\r\n  -webkit-transform: rotate(230.4deg);\r\n  transform: rotate(230.4deg);\r\n}\r\n.c100.p65 .bar {\r\n  -webkit-transform: rotate(234deg);\r\n  transform: rotate(234deg);\r\n}\r\n.c100.p66 .bar {\r\n  -webkit-transform: rotate(237.6deg);\r\n  transform: rotate(237.6deg);\r\n}\r\n.c100.p67 .bar {\r\n  -webkit-transform: rotate(241.2deg);\r\n  transform: rotate(241.2deg);\r\n}\r\n.c100.p68 .bar {\r\n  -webkit-transform: rotate(244.8deg);\r\n  transform: rotate(244.8deg);\r\n}\r\n.c100.p69 .bar {\r\n  -webkit-transform: rotate(248.4deg);\r\n  transform: rotate(248.4deg);\r\n}\r\n.c100.p70 .bar {\r\n  -webkit-transform: rotate(252deg);\r\n  transform: rotate(252deg);\r\n}\r\n.c100.p71 .bar {\r\n  -webkit-transform: rotate(255.6deg);\r\n  transform: rotate(255.6deg);\r\n}\r\n.c100.p72 .bar {\r\n  -webkit-transform: rotate(259.2deg);\r\n  transform: rotate(259.2deg);\r\n}\r\n.c100.p73 .bar {\r\n  -webkit-transform: rotate(262.8deg);\r\n  transform: rotate(262.8deg);\r\n}\r\n.c100.p74 .bar {\r\n  -webkit-transform: rotate(266.4deg);\r\n  transform: rotate(266.4deg);\r\n}\r\n.c100.p75 .bar {\r\n  -webkit-transform: rotate(270deg);\r\n  transform: rotate(270deg);\r\n}\r\n.c100.p76 .bar {\r\n  -webkit-transform: rotate(273.6deg);\r\n  transform: rotate(273.6deg);\r\n}\r\n.c100.p77 .bar {\r\n  -webkit-transform: rotate(277.2deg);\r\n  transform: rotate(277.2deg);\r\n}\r\n.c100.p78 .bar {\r\n  -webkit-transform: rotate(280.8deg);\r\n  transform: rotate(280.8deg);\r\n}\r\n.c100.p79 .bar {\r\n  -webkit-transform: rotate(284.4deg);\r\n  transform: rotate(284.4deg);\r\n}\r\n.c100.p80 .bar {\r\n  -webkit-transform: rotate(288deg);\r\n  transform: rotate(288deg);\r\n}\r\n.c100.p81 .bar {\r\n  -webkit-transform: rotate(291.6deg);\r\n  transform: rotate(291.6deg);\r\n}\r\n.c100.p82 .bar {\r\n  -webkit-transform: rotate(295.2deg);\r\n  transform: rotate(295.2deg);\r\n}\r\n.c100.p83 .bar {\r\n  -webkit-transform: rotate(298.8deg);\r\n  transform: rotate(298.8deg);\r\n}\r\n.c100.p84 .bar {\r\n  -webkit-transform: rotate(302.4deg);\r\n  transform: rotate(302.4deg);\r\n}\r\n.c100.p85 .bar {\r\n  -webkit-transform: rotate(306deg);\r\n  transform: rotate(306deg);\r\n}\r\n.c100.p86 .bar {\r\n  -webkit-transform: rotate(309.6deg);\r\n  transform: rotate(309.6deg);\r\n}\r\n.c100.p87 .bar {\r\n  -webkit-transform: rotate(313.2deg);\r\n  transform: rotate(313.2deg);\r\n}\r\n.c100.p88 .bar {\r\n  -webkit-transform: rotate(316.8deg);\r\n  transform: rotate(316.8deg);\r\n}\r\n.c100.p89 .bar {\r\n  -webkit-transform: rotate(320.4deg);\r\n  transform: rotate(320.4deg);\r\n}\r\n.c100.p90 .bar {\r\n  -webkit-transform: rotate(324deg);\r\n  transform: rotate(324deg);\r\n}\r\n.c100.p91 .bar {\r\n  -webkit-transform: rotate(327.6deg);\r\n  transform: rotate(327.6deg);\r\n}\r\n.c100.p92 .bar {\r\n  -webkit-transform: rotate(331.2deg);\r\n  transform: rotate(331.2deg);\r\n}\r\n.c100.p93 .bar {\r\n  -webkit-transform: rotate(334.8deg);\r\n  transform: rotate(334.8deg);\r\n}\r\n.c100.p94 .bar {\r\n  -webkit-transform: rotate(338.4deg);\r\n  transform: rotate(338.4deg);\r\n}\r\n.c100.p95 .bar {\r\n  -webkit-transform: rotate(342deg);\r\n  transform: rotate(342deg);\r\n}\r\n.c100.p96 .bar {\r\n  -webkit-transform: rotate(345.6deg);\r\n  transform: rotate(345.6deg);\r\n}\r\n.c100.p97 .bar {\r\n  -webkit-transform: rotate(349.2deg);\r\n  transform: rotate(349.2deg);\r\n}\r\n.c100.p98 .bar {\r\n  -webkit-transform: rotate(352.8deg);\r\n  transform: rotate(352.8deg);\r\n}\r\n.c100.p99 .bar {\r\n  -webkit-transform: rotate(356.4deg);\r\n  transform: rotate(356.4deg);\r\n}\r\n.c100.p100 .bar {\r\n  -webkit-transform: rotate(360deg);\r\n  transform: rotate(360deg);\r\n}\r\n.c100:hover {\r\n  cursor: default;\r\n}\r\n.c100:hover > span {\r\n  width: 3.33em;\r\n  line-height: 3.33em;\r\n  font-size: 0.3em;\r\n  color: #307bbb;\r\n}\r\n.c100:hover:after {\r\n  top: 0.04em;\r\n  left: 0.04em;\r\n  width: 0.92em;\r\n  height: 0.92em;\r\n}\r\n.c100.dark {\r\n  background-color: #777777;\r\n}\r\n.c100.dark .bar,\r\n.c100.dark .fill {\r\n  border-color: #c6ff00 !important;\r\n}\r\n.c100.dark > span {\r\n  color: #777777;\r\n}\r\n.c100.dark:after {\r\n  background-color: #666666;\r\n}\r\n.c100.dark:hover > span {\r\n  color: #c6ff00;\r\n}\r\n.c100.green .bar, .c100.green .fill {\r\n  border-color: #4db53c !important;\r\n}\r\n.c100.green:hover > span {\r\n  color: #4db53c;\r\n}\r\n.c100.green.dark .bar, .c100.green.dark .fill {\r\n  border-color: #5fd400 !important;\r\n}\r\n.c100.green.dark:hover > span {\r\n  color: #5fd400;\r\n}\r\n.c100.orange .bar, .c100.orange .fill {\r\n  border-color: #dd9d22 !important;\r\n}\r\n.c100.orange:hover > span {\r\n  color: #dd9d22;\r\n}\r\n.c100.orange.dark .bar, .c100.orange.dark .fill {\r\n  border-color: #e08833 !important;\r\n}\r\n.c100.orange.dark:hover > span {\r\n  color: #e08833;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 208:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 209:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 210:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 211:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "\r\nmd-card {\r\n  color: rgba(0,0,0,0.87);\r\n  background-color: white;\r\n  margin: 10px;\r\n  width: 630px;\r\n}\r\n\r\ntable tr td {\r\n    text-align: center;\r\n    font-size: 10pt;\r\n    height: 20px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}\r\n\r\nfollow-quality-indicator {\r\n  margin: 0px;\r\n  padding: 0px;\r\n  -ms-flex-line-pack: center;\r\n      align-content: center;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 212:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 213:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)();
+// imports
+
+
+// module
+exports.push([module.i, "\r\n.content-style {\r\n  height: 100%;\r\n  min-height: 450px;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 214:
+/***/ (function(module, exports) {
+
+module.exports = "<md-sidenav-container>\r\n  <md-toolbar color=\"primary\">\r\n    {{title}}\r\n    <span class=\"flex\"></span>\r\n    <follow-vsts-profile></follow-vsts-profile>\r\n    <follow-sonarqube-profile></follow-sonarqube-profile>\r\n  </md-toolbar>\r\n  <md-progress-bar mode=\"indeterminate\" *ngIf=\"isBusy\"></md-progress-bar>\r\n\r\n  <div class=\"app-content\">\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n\r\n</md-sidenav-container>\r\n"
+
+/***/ }),
+
+/***/ 215:
+/***/ (function(module, exports) {
+
+module.exports = "<h1 md-dialog-title>{{profileToDisplay()}} Connect</h1>\r\n<md-input-container>\r\n  <input mdInput placeholder=\"{{profileToDisplay()}} url\" [(ngModel)]=\"url\" type=\"url\">\r\n</md-input-container><br />\r\n<md-input-container>\r\n  <input mdInput placeholder=\"Login\" [(ngModel)]=\"login\">\r\n</md-input-container><br />\r\n<md-input-container>\r\n  <input mdInput placeholder=\"Password/Token\" [(ngModel)]=\"password\" type=\"password\">\r\n</md-input-container>\r\n<div md-dialog-actions>\r\n  <button md-button (click)=\"saveData()\">Connect</button>\r\n</div>\r\n"
+
+/***/ }),
+
+/***/ 216:
+/***/ (function(module, exports) {
+
+module.exports = "<button md-button (click)=\"openDialog()\">{{buttonLabel}}</button>"
+
+/***/ }),
+
+/***/ 217:
+/***/ (function(module, exports) {
+
+module.exports = "<button md-button (click)=\"openDialog()\">{{buttonLabel}}</button>\r\n"
+
+/***/ }),
+
+/***/ 218:
+/***/ (function(module, exports) {
+
+module.exports = "<table style=\"width:100%\">\r\n  <tr>\r\n    <td>{{ indicatorName }}</td>\r\n  </tr>\r\n  <tr>\r\n    <td>\r\n      <h2>{{ indicatorValue }}</h2>\r\n    </td>\r\n  </tr>\r\n</table>"
+
+/***/ }),
+
+/***/ 219:
+/***/ (function(module, exports) {
+
+module.exports = "<md-card *ngIf=\"build.definition\">\r\n  <div class=\"card_header\">{{ build.definition.project.name }}/{{ build.definition.name }} -\r\n    <span *ngIf=\"build.last\" [style.color]=\"getBuildColor(build.last)\">{{ build.last.buildNumber }} ({{ build.last.reason }})</span>\r\n    <span *ngIf=\"!build.last\" [style.color]=\"getDefaultColor()\">No build</span>\r\n  </div>\r\n  <md-grid-list cols=\"6\" >\r\n    <md-grid-tile *ngFor=\"let indicator of indicators\">\r\n      <follow-indicator-tile *ngIf=\"!indicator.lastAnalysis\" [indicatorName]=\"indicator.name\" [indicatorValue]=\"indicator.value\" [indicatorColor]=\"indicator.color\" [indicatorType]=\"indicator.type\"></follow-indicator-tile>\r\n      <follow-indicator-tile *ngIf=\"indicator.lastAnalysis\" [indicatorName]=\"indicator.name\" [indicatorValue]=\"indicator.value\" [indicatorColor]=\"indicator.color\" [indicatorType]=\"indicator.type\" [historyDiff]=\"indicator.sevenDays?.diff\" [historyColor]=\"indicator.sevenDays?.color\"></follow-indicator-tile>\r\n    </md-grid-tile>\r\n  </md-grid-list>\r\n</md-card>\r\n"
+
+/***/ }),
+
+/***/ 22:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__test_result__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__vsts_project__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_http__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selected_builds_selected_builds_service__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__test_result__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__vsts_project__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selected_builds_selected_builds_service__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__profile_profile_service__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__profile_profile_service__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_Subscriber__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_Subscriber___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_rxjs_Subscriber__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VstsDataService; });
@@ -1609,11 +1888,15 @@ var VstsDataService = (function () {
     VstsDataService.prototype.getSonarKey = function (logUri) {
         return this.launchGetForUrl(logUri).map(function (result) {
             var logs = JSON.parse(result.text()).value;
-            var filteredLog = logs.filter(function (line) {
+            var filteredLogs = logs.filter(function (line) {
                 var ln = "" + line;
                 return ln.indexOf("ANALYSIS SUCCESSFUL, you can browse ") > -1;
-            })[0].split("/");
-            return filteredLog[filteredLog.length - 1];
+            });
+            if (filteredLogs.length > 0) {
+                var filteredLog = filteredLogs[0].split("/");
+                return filteredLog.pop();
+            }
+            return "";
         });
     };
     VstsDataService.prototype.getBuildsWithPlanId = function (build) {
@@ -1675,57 +1958,43 @@ var VstsDataService = (function () {
                 projects.push(new __WEBPACK_IMPORTED_MODULE_10__vsts_project__["d" /* FullProject */](project));
                 emitter.next(projects);
             });
-            _this.getDefinitionsBatch(projects).subscribe(function (definitions) {
-                emitter.next(projects);
-                _this.getBuildsBatch(definitions).subscribe(function (buildGroups) {
-                    _this.supplyProjectsWithBuilds(projects, buildGroups);
+            projects.forEach(function (project) {
+                _this.getDefinitions(project).subscribe(function (definitions) {
                     emitter.next(projects);
-                    _this.busyEmitter.next(false);
+                    definitions.forEach(function (definition) {
+                        _this.getBuildByDefinition(definition).subscribe(function (build) {
+                            _this.supplyProjectsWithBuild(projects, build);
+                            emitter.next(projects);
+                            _this.busyEmitter.next(false);
+                        });
+                    });
                 });
             });
         });
     };
-    VstsDataService.prototype.supplyProjectsWithBuilds = function (projects, buildGroups) {
+    VstsDataService.prototype.supplyProjectsWithBuild = function (projects, build) {
         var _this = this;
         var selection = this.selectedBuildService.getSelectedBuilds();
         projects.forEach(function (project) {
-            buildGroups.forEach(function (buildArray) {
-                _this.supplyProjectWithBuilds(project, buildArray, selection);
-            });
+            _this.supplyProjectWithBuilds(project, build, selection);
         });
     };
-    VstsDataService.prototype.supplyProjectWithBuilds = function (project, buildArray, selectedBuilds) {
-        if (buildArray.length > 0 && buildArray[0].definition.project.id === project.project.id) {
-            this.addBuildsOnFullProject(project, buildArray.sort(function (a, b) { return a.definition.name.localeCompare(b.definition.name); }), selectedBuilds);
+    VstsDataService.prototype.supplyProjectWithBuilds = function (project, build, selectedBuilds) {
+        if (build.definition.project.id === project.project.id) {
+            this.addBuildsOnFullProject(project, build, selectedBuilds);
         }
     };
-    VstsDataService.prototype.addBuildsOnFullProject = function (project, builds, selectedBuilds) {
-        project.builds = new Array();
-        builds.forEach(function (build) {
-            if (selectedBuilds) {
-                var selectedIndex = selectedBuilds.findIndex(function (element) {
-                    return (element.projectGuid === project.project.id && element.buildDefinitionId === build.definition.id);
-                });
-                build.selected = (selectedIndex > -1);
-            }
-            project.builds.push(build);
-        });
-    };
-    VstsDataService.prototype.getBuildsBatch = function (buildsDefinitions) {
-        var _this = this;
-        var batch = new Array();
-        buildsDefinitions.forEach(function (definitionGroup) {
-            batch.push(_this.getBuildsForDefinitionGroup(definitionGroup));
-        });
-        return __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__["Observable"].forkJoin(batch);
-    };
-    VstsDataService.prototype.getBuildsForDefinitionGroup = function (definitionGroup) {
-        var _this = this;
-        var batch = new Array();
-        definitionGroup.forEach(function (build) {
-            batch.push(_this.getBuildByDefinition(build));
-        });
-        return __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__["Observable"].forkJoin(batch);
+    VstsDataService.prototype.addBuildsOnFullProject = function (project, build, selectedBuilds) {
+        if (!project.builds) {
+            project.builds = new Array();
+        }
+        if (selectedBuilds) {
+            var selectedIndex = selectedBuilds.findIndex(function (element) {
+                return (element.projectGuid === project.project.id && element.buildDefinitionId === build.definition.id);
+            });
+            build.selected = (selectedIndex > -1);
+        }
+        project.builds.push(build);
     };
     VstsDataService.prototype.getTestResultsBatch = function (buildsGroups) {
         var _this = this;
@@ -1772,13 +2041,8 @@ var VstsDataService = (function () {
             return newBuild;
         });
     };
-    VstsDataService.prototype.getDefinitionsBatch = function (projects) {
-        var _this = this;
-        var batch = new Array();
-        projects.forEach(function (project) {
-            batch.push(_this.getBuildDefinitionsForProject(project.project));
-        });
-        return __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__["Observable"].forkJoin(batch);
+    VstsDataService.prototype.getDefinitions = function (project) {
+        return this.getBuildDefinitionsForProject(project.project);
     };
     VstsDataService.prototype.getProjects = function () {
         var _this = this;
@@ -1984,282 +2248,6 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 200:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, ".app-content {\r\n  padding: 20px;\r\n  width: 700px;\r\n}\r\n\r\n.app-content md-card {\r\n  margin: 20px;\r\n}\r\n\r\n.app-sidenav {\r\n  padding: 20px;\r\n  min-width: 150px;\r\n}\r\n\r\n.app-content md-checkbox {\r\n  margin: 10px;\r\n}\r\n\r\n.app-toolbar-filler {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 auto;\r\n          flex: 1 1 auto;\r\n}\r\n\r\n.app-toolbar-menu {\r\n  padding: 0 14px 0 14px;\r\n  color: white;\r\n}\r\n\r\n.app-icon-button {\r\n  box-shadow: none;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  background: none;\r\n  border: none;\r\n  cursor: pointer;\r\n  -webkit-filter: none;\r\n          filter: none;\r\n  font-weight: normal;\r\n  height: auto;\r\n  line-height: inherit;\r\n  margin: 0;\r\n  min-width: 0;\r\n  padding: 0;\r\n  text-align: left;\r\n  text-decoration: none;\r\n}\r\n\r\n.app-action {\r\n  display: inline-block;\r\n  position: fixed;\r\n  bottom: 20px;\r\n  right: 20px;\r\n}\r\n\r\n.app-spinner {\r\n  height: 30px;\r\n  width: 30px;\r\n  display: inline-block;\r\n}\r\n\r\n.app-input-icon {\r\n  font-size: 16px;\r\n}\r\n\r\n.app-list {\r\n  border: 1px solid rgba(0,0,0,0.12);\r\n  width: 350px;\r\n  margin: 20px;\r\n}\r\n\r\n.app-progress {\r\n  margin: 20px;\r\n}\r\n\r\nmd-toolbar .flex {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 auto;\r\n          flex: 1 1 auto;\r\n}\r\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 201:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 202:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 203:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 204:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "table tr td {\r\n    text-align: center;\r\n    font-size: 10pt;\r\n    height: 20px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 205:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, ".card_header {\r\n  font-weight: bold;\r\n  color:#084B8A;\r\n  margin: -15px 0px 5px 0px;\r\n}\r\n\r\nmd-card {\r\n  color: rgba(0,0,0,0.87);\r\n  background-color: white;\r\n  margin: 8px;\r\n  width: 630px;\r\n}\r\n\r\ntable tr td {\r\n    text-align: justify;\r\n    font-size: 10pt;\r\n    height: 20px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}\r\n\r\nfollow-quality-indicator {\r\n  margin: 0px;\r\n  padding: 0px;\r\n  -ms-flex-line-pack: center;\r\n      align-content: center;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 206:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "table tr td {\r\n    text-align: center;\r\n    font-size: 10pt;\r\n    height: 10px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}\r\n\r\n.indicator_title{\r\n  font-weight: bold;\r\n  font-size: 10pt;\r\n  margin-bottom: 5px;\r\n}\r\n.indicator_value{\r\n  font-size: 20pt;\r\n  text-align: center;\r\n      margin-top: 20px;\r\n}\r\n.indicator_block{\r\n  min-height: 80px;\r\n}\r\n\r\n/****************************************************************\r\n *\r\n * CSS Percentage Circle\r\n * Author: Andre Firchow\r\n *\r\n*****************************************************************/\r\n.rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice, .c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice, .c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice, .c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, .c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice, .c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice, .c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice, .c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice, .c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice, .c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice, .c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice, .c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice, .c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {\r\n  clip: rect(auto, auto, auto, auto);\r\n}\r\n\r\n.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {\r\n  position: absolute;\r\n  border: 0.08em solid #307bbb;\r\n  width: 0.84em;\r\n  height: 0.84em;\r\n  clip: rect(0em, 0.5em, 1em, 0em);\r\n  border-radius: 50%;\r\n  -webkit-transform: rotate(0deg);\r\n  transform: rotate(0deg);\r\n}\r\n\r\n.pie-fill, .c100.p51 .bar:after, .c100.p51 .fill, .c100.p52 .bar:after, .c100.p52 .fill, .c100.p53 .bar:after, .c100.p53 .fill, .c100.p54 .bar:after, .c100.p54 .fill, .c100.p55 .bar:after, .c100.p55 .fill, .c100.p56 .bar:after, .c100.p56 .fill, .c100.p57 .bar:after, .c100.p57 .fill, .c100.p58 .bar:after, .c100.p58 .fill, .c100.p59 .bar:after, .c100.p59 .fill, .c100.p60 .bar:after, .c100.p60 .fill, .c100.p61 .bar:after, .c100.p61 .fill, .c100.p62 .bar:after, .c100.p62 .fill, .c100.p63 .bar:after, .c100.p63 .fill, .c100.p64 .bar:after, .c100.p64 .fill, .c100.p65 .bar:after, .c100.p65 .fill, .c100.p66 .bar:after, .c100.p66 .fill, .c100.p67 .bar:after, .c100.p67 .fill, .c100.p68 .bar:after, .c100.p68 .fill, .c100.p69 .bar:after, .c100.p69 .fill, .c100.p70 .bar:after, .c100.p70 .fill, .c100.p71 .bar:after, .c100.p71 .fill, .c100.p72 .bar:after, .c100.p72 .fill, .c100.p73 .bar:after, .c100.p73 .fill, .c100.p74 .bar:after, .c100.p74 .fill, .c100.p75 .bar:after, .c100.p75 .fill, .c100.p76 .bar:after, .c100.p76 .fill, .c100.p77 .bar:after, .c100.p77 .fill, .c100.p78 .bar:after, .c100.p78 .fill, .c100.p79 .bar:after, .c100.p79 .fill, .c100.p80 .bar:after, .c100.p80 .fill, .c100.p81 .bar:after, .c100.p81 .fill, .c100.p82 .bar:after, .c100.p82 .fill, .c100.p83 .bar:after, .c100.p83 .fill, .c100.p84 .bar:after, .c100.p84 .fill, .c100.p85 .bar:after, .c100.p85 .fill, .c100.p86 .bar:after, .c100.p86 .fill, .c100.p87 .bar:after, .c100.p87 .fill, .c100.p88 .bar:after, .c100.p88 .fill, .c100.p89 .bar:after, .c100.p89 .fill, .c100.p90 .bar:after, .c100.p90 .fill, .c100.p91 .bar:after, .c100.p91 .fill, .c100.p92 .bar:after, .c100.p92 .fill, .c100.p93 .bar:after, .c100.p93 .fill, .c100.p94 .bar:after, .c100.p94 .fill, .c100.p95 .bar:after, .c100.p95 .fill, .c100.p96 .bar:after, .c100.p96 .fill, .c100.p97 .bar:after, .c100.p97 .fill, .c100.p98 .bar:after, .c100.p98 .fill, .c100.p99 .bar:after, .c100.p99 .fill, .c100.p100 .bar:after, .c100.p100 .fill {\r\n  -webkit-transform: rotate(180deg);\r\n  transform: rotate(180deg);\r\n}\r\n\r\n.c100 {\r\n  position: relative;\r\n  font-size: 120px;\r\n  width: 1em;\r\n  height: 1em;\r\n  border-radius: 50%;\r\n  float: left;\r\n  margin: 0 0.1em 0.1em 0;\r\n  background-color: #cccccc;\r\n}\r\n.c100 *, .c100 *:before, .c100 *:after {\r\n  box-sizing: content-box;\r\n}\r\n.c100.center {\r\n  float: none;\r\n  margin: 0 auto;\r\n}\r\n.c100.big {\r\n  font-size: 240px;\r\n}\r\n.c100.small {\r\n  font-size: 60px;\r\n}\r\n.c100 > span {\r\n  position: absolute;\r\n  width: 100%;\r\n  z-index: 1;\r\n  left: 0;\r\n  top: 0;\r\n  width: 5em;\r\n  line-height: 5em;\r\n  font-size: 0.2em;\r\n  color: #cccccc;\r\n  display: block;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  -webkit-transition-property: all;\r\n  transition-property: all;\r\n  -webkit-transition-duration: 0.2s;\r\n  transition-duration: 0.2s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\r\n}\r\n.c100:after {\r\n  position: absolute;\r\n  top: 0.08em;\r\n  left: 0.08em;\r\n  display: block;\r\n  content: \" \";\r\n  border-radius: 50%;\r\n  background-color: whitesmoke;\r\n  width: 0.84em;\r\n  height: 0.84em;\r\n  -webkit-transition-property: all;\r\n  transition-property: all;\r\n  -webkit-transition-duration: 0.2s;\r\n  transition-duration: 0.2s;\r\n  -webkit-transition-timing-function: ease-in;\r\n  transition-timing-function: ease-in;\r\n}\r\n.c100 .slice {\r\n  position: absolute;\r\n  width: 1em;\r\n  height: 1em;\r\n  clip: rect(0em, 1em, 1em, 0.5em);\r\n}\r\n.c100.p1 .bar {\r\n  -webkit-transform: rotate(3.6deg);\r\n  transform: rotate(3.6deg);\r\n}\r\n.c100.p2 .bar {\r\n  -webkit-transform: rotate(7.2deg);\r\n  transform: rotate(7.2deg);\r\n}\r\n.c100.p3 .bar {\r\n  -webkit-transform: rotate(10.8deg);\r\n  transform: rotate(10.8deg);\r\n}\r\n.c100.p4 .bar {\r\n  -webkit-transform: rotate(14.4deg);\r\n  transform: rotate(14.4deg);\r\n}\r\n.c100.p5 .bar {\r\n  -webkit-transform: rotate(18deg);\r\n  transform: rotate(18deg);\r\n}\r\n.c100.p6 .bar {\r\n  -webkit-transform: rotate(21.6deg);\r\n  transform: rotate(21.6deg);\r\n}\r\n.c100.p7 .bar {\r\n  -webkit-transform: rotate(25.2deg);\r\n  transform: rotate(25.2deg);\r\n}\r\n.c100.p8 .bar {\r\n  -webkit-transform: rotate(28.8deg);\r\n  transform: rotate(28.8deg);\r\n}\r\n.c100.p9 .bar {\r\n  -webkit-transform: rotate(32.4deg);\r\n  transform: rotate(32.4deg);\r\n}\r\n.c100.p10 .bar {\r\n  -webkit-transform: rotate(36deg);\r\n  transform: rotate(36deg);\r\n}\r\n.c100.p11 .bar {\r\n  -webkit-transform: rotate(39.6deg);\r\n  transform: rotate(39.6deg);\r\n}\r\n.c100.p12 .bar {\r\n  -webkit-transform: rotate(43.2deg);\r\n  transform: rotate(43.2deg);\r\n}\r\n.c100.p13 .bar {\r\n  -webkit-transform: rotate(46.8deg);\r\n  transform: rotate(46.8deg);\r\n}\r\n.c100.p14 .bar {\r\n  -webkit-transform: rotate(50.4deg);\r\n  transform: rotate(50.4deg);\r\n}\r\n.c100.p15 .bar {\r\n  -webkit-transform: rotate(54deg);\r\n  transform: rotate(54deg);\r\n}\r\n.c100.p16 .bar {\r\n  -webkit-transform: rotate(57.6deg);\r\n  transform: rotate(57.6deg);\r\n}\r\n.c100.p17 .bar {\r\n  -webkit-transform: rotate(61.2deg);\r\n  transform: rotate(61.2deg);\r\n}\r\n.c100.p18 .bar {\r\n  -webkit-transform: rotate(64.8deg);\r\n  transform: rotate(64.8deg);\r\n}\r\n.c100.p19 .bar {\r\n  -webkit-transform: rotate(68.4deg);\r\n  transform: rotate(68.4deg);\r\n}\r\n.c100.p20 .bar {\r\n  -webkit-transform: rotate(72deg);\r\n  transform: rotate(72deg);\r\n}\r\n.c100.p21 .bar {\r\n  -webkit-transform: rotate(75.6deg);\r\n  transform: rotate(75.6deg);\r\n}\r\n.c100.p22 .bar {\r\n  -webkit-transform: rotate(79.2deg);\r\n  transform: rotate(79.2deg);\r\n}\r\n.c100.p23 .bar {\r\n  -webkit-transform: rotate(82.8deg);\r\n  transform: rotate(82.8deg);\r\n}\r\n.c100.p24 .bar {\r\n  -webkit-transform: rotate(86.4deg);\r\n  transform: rotate(86.4deg);\r\n}\r\n.c100.p25 .bar {\r\n  -webkit-transform: rotate(90deg);\r\n  transform: rotate(90deg);\r\n}\r\n.c100.p26 .bar {\r\n  -webkit-transform: rotate(93.6deg);\r\n  transform: rotate(93.6deg);\r\n}\r\n.c100.p27 .bar {\r\n  -webkit-transform: rotate(97.2deg);\r\n  transform: rotate(97.2deg);\r\n}\r\n.c100.p28 .bar {\r\n  -webkit-transform: rotate(100.8deg);\r\n  transform: rotate(100.8deg);\r\n}\r\n.c100.p29 .bar {\r\n  -webkit-transform: rotate(104.4deg);\r\n  transform: rotate(104.4deg);\r\n}\r\n.c100.p30 .bar {\r\n  -webkit-transform: rotate(108deg);\r\n  transform: rotate(108deg);\r\n}\r\n.c100.p31 .bar {\r\n  -webkit-transform: rotate(111.6deg);\r\n  transform: rotate(111.6deg);\r\n}\r\n.c100.p32 .bar {\r\n  -webkit-transform: rotate(115.2deg);\r\n  transform: rotate(115.2deg);\r\n}\r\n.c100.p33 .bar {\r\n  -webkit-transform: rotate(118.8deg);\r\n  transform: rotate(118.8deg);\r\n}\r\n.c100.p34 .bar {\r\n  -webkit-transform: rotate(122.4deg);\r\n  transform: rotate(122.4deg);\r\n}\r\n.c100.p35 .bar {\r\n  -webkit-transform: rotate(126deg);\r\n  transform: rotate(126deg);\r\n}\r\n.c100.p36 .bar {\r\n  -webkit-transform: rotate(129.6deg);\r\n  transform: rotate(129.6deg);\r\n}\r\n.c100.p37 .bar {\r\n  -webkit-transform: rotate(133.2deg);\r\n  transform: rotate(133.2deg);\r\n}\r\n.c100.p38 .bar {\r\n  -webkit-transform: rotate(136.8deg);\r\n  transform: rotate(136.8deg);\r\n}\r\n.c100.p39 .bar {\r\n  -webkit-transform: rotate(140.4deg);\r\n  transform: rotate(140.4deg);\r\n}\r\n.c100.p40 .bar {\r\n  -webkit-transform: rotate(144deg);\r\n  transform: rotate(144deg);\r\n}\r\n.c100.p41 .bar {\r\n  -webkit-transform: rotate(147.6deg);\r\n  transform: rotate(147.6deg);\r\n}\r\n.c100.p42 .bar {\r\n  -webkit-transform: rotate(151.2deg);\r\n  transform: rotate(151.2deg);\r\n}\r\n.c100.p43 .bar {\r\n  -webkit-transform: rotate(154.8deg);\r\n  transform: rotate(154.8deg);\r\n}\r\n.c100.p44 .bar {\r\n  -webkit-transform: rotate(158.4deg);\r\n  transform: rotate(158.4deg);\r\n}\r\n.c100.p45 .bar {\r\n  -webkit-transform: rotate(162deg);\r\n  transform: rotate(162deg);\r\n}\r\n.c100.p46 .bar {\r\n  -webkit-transform: rotate(165.6deg);\r\n  transform: rotate(165.6deg);\r\n}\r\n.c100.p47 .bar {\r\n  -webkit-transform: rotate(169.2deg);\r\n  transform: rotate(169.2deg);\r\n}\r\n.c100.p48 .bar {\r\n  -webkit-transform: rotate(172.8deg);\r\n  transform: rotate(172.8deg);\r\n}\r\n.c100.p49 .bar {\r\n  -webkit-transform: rotate(176.4deg);\r\n  transform: rotate(176.4deg);\r\n}\r\n.c100.p50 .bar {\r\n  -webkit-transform: rotate(180deg);\r\n  transform: rotate(180deg);\r\n}\r\n.c100.p51 .bar {\r\n  -webkit-transform: rotate(183.6deg);\r\n  transform: rotate(183.6deg);\r\n}\r\n.c100.p52 .bar {\r\n  -webkit-transform: rotate(187.2deg);\r\n  transform: rotate(187.2deg);\r\n}\r\n.c100.p53 .bar {\r\n  -webkit-transform: rotate(190.8deg);\r\n  transform: rotate(190.8deg);\r\n}\r\n.c100.p54 .bar {\r\n  -webkit-transform: rotate(194.4deg);\r\n  transform: rotate(194.4deg);\r\n}\r\n.c100.p55 .bar {\r\n  -webkit-transform: rotate(198deg);\r\n  transform: rotate(198deg);\r\n}\r\n.c100.p56 .bar {\r\n  -webkit-transform: rotate(201.6deg);\r\n  transform: rotate(201.6deg);\r\n}\r\n.c100.p57 .bar {\r\n  -webkit-transform: rotate(205.2deg);\r\n  transform: rotate(205.2deg);\r\n}\r\n.c100.p58 .bar {\r\n  -webkit-transform: rotate(208.8deg);\r\n  transform: rotate(208.8deg);\r\n}\r\n.c100.p59 .bar {\r\n  -webkit-transform: rotate(212.4deg);\r\n  transform: rotate(212.4deg);\r\n}\r\n.c100.p60 .bar {\r\n  -webkit-transform: rotate(216deg);\r\n  transform: rotate(216deg);\r\n}\r\n.c100.p61 .bar {\r\n  -webkit-transform: rotate(219.6deg);\r\n  transform: rotate(219.6deg);\r\n}\r\n.c100.p62 .bar {\r\n  -webkit-transform: rotate(223.2deg);\r\n  transform: rotate(223.2deg);\r\n}\r\n.c100.p63 .bar {\r\n  -webkit-transform: rotate(226.8deg);\r\n  transform: rotate(226.8deg);\r\n}\r\n.c100.p64 .bar {\r\n  -webkit-transform: rotate(230.4deg);\r\n  transform: rotate(230.4deg);\r\n}\r\n.c100.p65 .bar {\r\n  -webkit-transform: rotate(234deg);\r\n  transform: rotate(234deg);\r\n}\r\n.c100.p66 .bar {\r\n  -webkit-transform: rotate(237.6deg);\r\n  transform: rotate(237.6deg);\r\n}\r\n.c100.p67 .bar {\r\n  -webkit-transform: rotate(241.2deg);\r\n  transform: rotate(241.2deg);\r\n}\r\n.c100.p68 .bar {\r\n  -webkit-transform: rotate(244.8deg);\r\n  transform: rotate(244.8deg);\r\n}\r\n.c100.p69 .bar {\r\n  -webkit-transform: rotate(248.4deg);\r\n  transform: rotate(248.4deg);\r\n}\r\n.c100.p70 .bar {\r\n  -webkit-transform: rotate(252deg);\r\n  transform: rotate(252deg);\r\n}\r\n.c100.p71 .bar {\r\n  -webkit-transform: rotate(255.6deg);\r\n  transform: rotate(255.6deg);\r\n}\r\n.c100.p72 .bar {\r\n  -webkit-transform: rotate(259.2deg);\r\n  transform: rotate(259.2deg);\r\n}\r\n.c100.p73 .bar {\r\n  -webkit-transform: rotate(262.8deg);\r\n  transform: rotate(262.8deg);\r\n}\r\n.c100.p74 .bar {\r\n  -webkit-transform: rotate(266.4deg);\r\n  transform: rotate(266.4deg);\r\n}\r\n.c100.p75 .bar {\r\n  -webkit-transform: rotate(270deg);\r\n  transform: rotate(270deg);\r\n}\r\n.c100.p76 .bar {\r\n  -webkit-transform: rotate(273.6deg);\r\n  transform: rotate(273.6deg);\r\n}\r\n.c100.p77 .bar {\r\n  -webkit-transform: rotate(277.2deg);\r\n  transform: rotate(277.2deg);\r\n}\r\n.c100.p78 .bar {\r\n  -webkit-transform: rotate(280.8deg);\r\n  transform: rotate(280.8deg);\r\n}\r\n.c100.p79 .bar {\r\n  -webkit-transform: rotate(284.4deg);\r\n  transform: rotate(284.4deg);\r\n}\r\n.c100.p80 .bar {\r\n  -webkit-transform: rotate(288deg);\r\n  transform: rotate(288deg);\r\n}\r\n.c100.p81 .bar {\r\n  -webkit-transform: rotate(291.6deg);\r\n  transform: rotate(291.6deg);\r\n}\r\n.c100.p82 .bar {\r\n  -webkit-transform: rotate(295.2deg);\r\n  transform: rotate(295.2deg);\r\n}\r\n.c100.p83 .bar {\r\n  -webkit-transform: rotate(298.8deg);\r\n  transform: rotate(298.8deg);\r\n}\r\n.c100.p84 .bar {\r\n  -webkit-transform: rotate(302.4deg);\r\n  transform: rotate(302.4deg);\r\n}\r\n.c100.p85 .bar {\r\n  -webkit-transform: rotate(306deg);\r\n  transform: rotate(306deg);\r\n}\r\n.c100.p86 .bar {\r\n  -webkit-transform: rotate(309.6deg);\r\n  transform: rotate(309.6deg);\r\n}\r\n.c100.p87 .bar {\r\n  -webkit-transform: rotate(313.2deg);\r\n  transform: rotate(313.2deg);\r\n}\r\n.c100.p88 .bar {\r\n  -webkit-transform: rotate(316.8deg);\r\n  transform: rotate(316.8deg);\r\n}\r\n.c100.p89 .bar {\r\n  -webkit-transform: rotate(320.4deg);\r\n  transform: rotate(320.4deg);\r\n}\r\n.c100.p90 .bar {\r\n  -webkit-transform: rotate(324deg);\r\n  transform: rotate(324deg);\r\n}\r\n.c100.p91 .bar {\r\n  -webkit-transform: rotate(327.6deg);\r\n  transform: rotate(327.6deg);\r\n}\r\n.c100.p92 .bar {\r\n  -webkit-transform: rotate(331.2deg);\r\n  transform: rotate(331.2deg);\r\n}\r\n.c100.p93 .bar {\r\n  -webkit-transform: rotate(334.8deg);\r\n  transform: rotate(334.8deg);\r\n}\r\n.c100.p94 .bar {\r\n  -webkit-transform: rotate(338.4deg);\r\n  transform: rotate(338.4deg);\r\n}\r\n.c100.p95 .bar {\r\n  -webkit-transform: rotate(342deg);\r\n  transform: rotate(342deg);\r\n}\r\n.c100.p96 .bar {\r\n  -webkit-transform: rotate(345.6deg);\r\n  transform: rotate(345.6deg);\r\n}\r\n.c100.p97 .bar {\r\n  -webkit-transform: rotate(349.2deg);\r\n  transform: rotate(349.2deg);\r\n}\r\n.c100.p98 .bar {\r\n  -webkit-transform: rotate(352.8deg);\r\n  transform: rotate(352.8deg);\r\n}\r\n.c100.p99 .bar {\r\n  -webkit-transform: rotate(356.4deg);\r\n  transform: rotate(356.4deg);\r\n}\r\n.c100.p100 .bar {\r\n  -webkit-transform: rotate(360deg);\r\n  transform: rotate(360deg);\r\n}\r\n.c100:hover {\r\n  cursor: default;\r\n}\r\n.c100:hover > span {\r\n  width: 3.33em;\r\n  line-height: 3.33em;\r\n  font-size: 0.3em;\r\n  color: #307bbb;\r\n}\r\n.c100:hover:after {\r\n  top: 0.04em;\r\n  left: 0.04em;\r\n  width: 0.92em;\r\n  height: 0.92em;\r\n}\r\n.c100.dark {\r\n  background-color: #777777;\r\n}\r\n.c100.dark .bar,\r\n.c100.dark .fill {\r\n  border-color: #c6ff00 !important;\r\n}\r\n.c100.dark > span {\r\n  color: #777777;\r\n}\r\n.c100.dark:after {\r\n  background-color: #666666;\r\n}\r\n.c100.dark:hover > span {\r\n  color: #c6ff00;\r\n}\r\n.c100.green .bar, .c100.green .fill {\r\n  border-color: #4db53c !important;\r\n}\r\n.c100.green:hover > span {\r\n  color: #4db53c;\r\n}\r\n.c100.green.dark .bar, .c100.green.dark .fill {\r\n  border-color: #5fd400 !important;\r\n}\r\n.c100.green.dark:hover > span {\r\n  color: #5fd400;\r\n}\r\n.c100.orange .bar, .c100.orange .fill {\r\n  border-color: #dd9d22 !important;\r\n}\r\n.c100.orange:hover > span {\r\n  color: #dd9d22;\r\n}\r\n.c100.orange.dark .bar, .c100.orange.dark .fill {\r\n  border-color: #e08833 !important;\r\n}\r\n.c100.orange.dark:hover > span {\r\n  color: #e08833;\r\n}\r\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 207:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 208:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 209:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 210:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "\r\nmd-card {\r\n  color: rgba(0,0,0,0.87);\r\n  background-color: white;\r\n  margin: 10px;\r\n  width: 630px;\r\n}\r\n\r\ntable tr td {\r\n    text-align: center;\r\n    font-size: 10pt;\r\n    height: 20px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    line-height: 0pt;\r\n    vertical-align: bottom;\r\n}\r\n\r\na2 {\r\n  line-height: -4pt;\r\n}\r\n\r\nfollow-quality-indicator {\r\n  margin: 0px;\r\n  padding: 0px;\r\n  -ms-flex-line-pack: center;\r\n      align-content: center;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 211:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 212:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)();
-// imports
-
-
-// module
-exports.push([module.i, "\r\n.content-style {\r\n  height: 100%;\r\n  min-height: 450px;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 214:
-/***/ (function(module, exports) {
-
-module.exports = "<md-sidenav-container>\r\n  <md-toolbar color=\"primary\">\r\n    {{title}}\r\n    <span class=\"flex\"></span>\r\n    <follow-vsts-profile></follow-vsts-profile>\r\n    <follow-sonarqube-profile></follow-sonarqube-profile>\r\n  </md-toolbar>\r\n  <md-progress-bar mode=\"indeterminate\" *ngIf=\"isBusy\"></md-progress-bar>\r\n\r\n  <div class=\"app-content\">\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n\r\n</md-sidenav-container>\r\n"
-
-/***/ }),
-
-/***/ 215:
-/***/ (function(module, exports) {
-
-module.exports = "<h1 md-dialog-title>{{profileToDisplay()}} Connect</h1>\r\n<md-input-container>\r\n  <input mdInput placeholder=\"{{profileToDisplay()}} url\" [(ngModel)]=\"url\" type=\"url\">\r\n</md-input-container><br />\r\n<md-input-container>\r\n  <input mdInput placeholder=\"Login\" [(ngModel)]=\"login\">\r\n</md-input-container><br />\r\n<md-input-container>\r\n  <input mdInput placeholder=\"Password/Token\" [(ngModel)]=\"password\" type=\"password\">\r\n</md-input-container>\r\n<div md-dialog-actions>\r\n  <button md-button (click)=\"saveData()\">Connect</button>\r\n</div>\r\n"
-
-/***/ }),
-
-/***/ 216:
-/***/ (function(module, exports) {
-
-module.exports = "<button md-button (click)=\"openDialog()\">{{buttonLabel}}</button>"
-
-/***/ }),
-
-/***/ 217:
-/***/ (function(module, exports) {
-
-module.exports = "<button md-button (click)=\"openDialog()\">{{buttonLabel}}</button>\r\n"
-
-/***/ }),
-
-/***/ 218:
-/***/ (function(module, exports) {
-
-module.exports = "<table style=\"width:100%\">\r\n  <tr>\r\n    <td>{{ indicatorName }}</td>\r\n  </tr>\r\n  <tr>\r\n    <td>\r\n      <h2>{{ indicatorValue }}</h2>\r\n    </td>\r\n  </tr>\r\n</table>"
-
-/***/ }),
-
-/***/ 219:
-/***/ (function(module, exports) {
-
-module.exports = "<md-card *ngIf=\"build.definition\">\r\n  <div class=\"card_header\">{{ build.definition.project.name }}/{{ build.definition.name }} -\r\n    <span *ngIf=\"build.last\" [style.color]=\"getBuildColor(build.last)\">{{ build.last.buildNumber }} ({{ build.last.reason }})</span>\r\n    <span *ngIf=\"!build.last\" [style.color]=\"getDefaultColor()\">No build</span>\r\n  </div>\r\n  <md-grid-list cols=\"6\" >\r\n    <md-grid-tile *ngFor=\"let indicator of indicators\">\r\n      <follow-indicator-tile *ngIf=\"!indicator.lastAnalysis\" [indicatorName]=\"indicator.name\" [indicatorValue]=\"indicator.value\" [indicatorColor]=\"indicator.color\" [indicatorType]=\"indicator.type\"></follow-indicator-tile>\r\n      <follow-indicator-tile *ngIf=\"indicator.lastAnalysis\" [indicatorName]=\"indicator.name\" [indicatorValue]=\"indicator.value\" [indicatorColor]=\"indicator.color\" [indicatorType]=\"indicator.type\" [historyDiff]=\"indicator.sevenDays.diff\" [historyColor]=\"indicator.sevenDays.color\"></follow-indicator-tile>\r\n    </md-grid-tile>\r\n  </md-grid-list>\r\n</md-card>\r\n"
-
-/***/ }),
-
 /***/ 220:
 /***/ (function(module, exports) {
 
@@ -2309,7 +2297,15 @@ module.exports = "<md-tab-group [dynamicHeight]=\"dynh\" flex>\r\n  <!--<md-tab 
 
 /***/ }),
 
-/***/ 28:
+/***/ 286:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(119);
+
+
+/***/ }),
+
+/***/ 29:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2373,19 +2369,11 @@ ProfileService = __decorate([
 
 /***/ }),
 
-/***/ 282:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(118);
-
-
-/***/ }),
-
-/***/ 29:
+/***/ 30:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__test_result__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__test_result__ = __webpack_require__(53);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainBuildsInfo; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return FullProject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return VstsBuildDefinition; });
@@ -2448,14 +2436,14 @@ var VstsProjectList = (function () {
 
 /***/ }),
 
-/***/ 48:
+/***/ 51:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_service__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_credentials__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_service__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_credentials__ = __webpack_require__(131);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginDialogComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2504,12 +2492,12 @@ var LoginDialogComponent = (function () {
     return LoginDialogComponent;
 }());
 LoginDialogComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'follow-login-dialog',
         template: __webpack_require__(215),
-        styles: [__webpack_require__(201)]
+        styles: [__webpack_require__(202)]
     }),
-    __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Inject */])(__WEBPACK_IMPORTED_MODULE_1__angular_material__["b" /* MD_DIALOG_DATA */])),
+    __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Optional */])()), __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Inject */])(__WEBPACK_IMPORTED_MODULE_1__angular_material__["b" /* MD_DIALOG_DATA */])),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_material__["c" /* MdDialogRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_material__["c" /* MdDialogRef */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__profile_service__["a" /* ProfileService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__profile_service__["a" /* ProfileService */]) === "function" && _b || Object, Object])
 ], LoginDialogComponent);
 
@@ -2518,27 +2506,27 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 49:
+/***/ 52:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_Observable__ = __webpack_require__(0);
@@ -2621,7 +2609,7 @@ var SelectedBuild = (function () {
 
 /***/ }),
 
-/***/ 50:
+/***/ 53:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2655,32 +2643,34 @@ var Coverage = (function () {
 
 /***/ }),
 
-/***/ 83:
+/***/ 84:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_retry__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_retrywhen__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_delay__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_timeout__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_take__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_zip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_merge__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__sonar_model__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__profile_profile_service__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__sonar_model__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__profile_profile_service__ = __webpack_require__(29);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SonarDataService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2691,6 +2681,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -2723,6 +2714,9 @@ var SonarDataService = (function () {
     SonarDataService.prototype.getIndicators = function (componentKey) {
         var _this = this;
         this.setProfileAndHeaders();
+        if (!componentKey) {
+            return __WEBPACK_IMPORTED_MODULE_12_rxjs_Observable__["Observable"].throw("Missing componentKey");
+        }
         return this.launchGetForUrl(this.profile.url + "api/measures/component?metricKeys=tests,test_errors,coverage,bugs,vulnerabilities,code_smells,sqale_rating,reliability_rating,security_rating&componentKey=" + componentKey)
             .map(function (resp) {
             var measures = new Array();
@@ -2790,7 +2784,7 @@ var SonarDataService = (function () {
 }());
 SonarDataService = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__angular_core__["c" /* Injectable */])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_12__profile_profile_service__["a" /* ProfileService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_12__profile_profile_service__["a" /* ProfileService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_9__angular_http__["e" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__angular_http__["e" /* Http */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_13__profile_profile_service__["a" /* ProfileService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_13__profile_profile_service__["a" /* ProfileService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_9__angular_http__["e" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__angular_http__["e" /* Http */]) === "function" && _b || Object])
 ], SonarDataService);
 
 var _a, _b;
@@ -2798,13 +2792,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 84:
+/***/ 85:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sonar_data_service__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sonar_data_service__ = __webpack_require__(84);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SonarModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2834,16 +2828,16 @@ SonarModule = __decorate([
 
 /***/ }),
 
-/***/ 85:
+/***/ 86:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_data_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_data_service__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VstsProjectsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2883,10 +2877,10 @@ var VstsProjectsComponent = (function () {
     return VstsProjectsComponent;
 }());
 VstsProjectsComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Y" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_0" /* Component */])({
         selector: 'follow-vsts-projects',
         template: __webpack_require__(226),
-        styles: [__webpack_require__(212)]
+        styles: [__webpack_require__(213)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_data_service__["a" /* VstsDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__vsts_vsts_data_service__["a" /* VstsDataService */]) === "function" && _a || Object])
 ], VstsProjectsComponent);
@@ -2896,5 +2890,5 @@ var _a;
 
 /***/ })
 
-},[282]);
+},[286]);
 //# sourceMappingURL=main.bundle.js.map
